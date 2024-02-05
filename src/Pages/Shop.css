@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&family=Poppins:wght@300&family=Style+Script&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.product1{
+    text-align: center;
+    background-color: rgb(210, 210, 185);
+    width: 100%;
+    height: 30vh;
+   padding: 1px;
+  
+}
+
+.title{
+  margin-top: 100px;
+  color: transparent; /* Make text invisible initially */
+  animation: revealText 8s forwards ;
+}
+
+@keyframes revealText {
+  0% {
+    color: transparent; /* Start with transparent text */
+  }
+  100% {
+    color: black; /* Gradually reveal the text to black */
+  }
+}
+
+.collections{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: large;
+    color: rgb(58, 83, 107);
+    position: relative;
+  display: inline-block;
+}
+
+
+.shop{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/*-------------Footer1--------------------*/
+.footer{
+  margin-top: -38px;
+  background-color: lightslategray;
+  padding-bottom: 20px;
+}
+.footer-title{
+  color: white;
+  margin-top: 50px;
+  
+}
+
+.footer-subtitle{
+  color: rgb(194, 194, 56);
+  margin-top: 120px;
+  font-size: 40px;
+  display: flex;
+
+}
+.footer-text{
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+
+  
+}
+/*-------------Footer2--------------------*/
+.footer-subtitle1{
+  color: rgb(194, 194, 56);
+  margin-top: -145px;
+  font-size: 40px;
+  
+}
+
+.footer-text1{
+  color: white;
+  cursor: pointer;
+ font-size: 14px;
+  margin-top: 15px;
+ 
+  
+}
+/*-------------Footer3--------------------*/
+.footer-subtitle2{
+  color: rgb(194, 194, 56);
+  margin-top: -155px;
+  font-size: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.footer-text2{
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&family=Poppins:wght@300&family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.contact-img{
+    text-align: center;
+    
+   margin-top: 10px;
+   color: transparent; /* Make text invisible initially */
+  animation: revealText 8s forwards ;
+}
+
+@keyframes revealText {
+    0% {
+      color: transparent; /* Start with transparent text */
+    }
+    100% {
+      color: black; /* Gradually reveal the text to black */
+    }
+  }
+
+.container{
+    margin-top: 40px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f8f9fa;
+    color: black;
+}
+
+input:focus,textarea:focus{
+    outline: none;
+    box-shadow: 0 0 9px purple;
+}
+
+#btn{
+  height: 40px;;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: purple;
+  border-radius: 70px;
+  color: white;
+  font-weight: 700px;
+  transition: all 0.3s ease;
+}
+
+
+#btn:hover {
+  transform: translateY(-10px);
+}
+
+
+
